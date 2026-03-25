@@ -13,16 +13,6 @@ namespace ConsoleApp1
             Name = name;
             Email = email;
         } 
-         public string Login()
-        {
-            if (Email == "")
-            {
-                return "Email cannot be empty";
-            }
-            else {
-                return "Login successful";
-            }
-              }
 
     }
 }
